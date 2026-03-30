@@ -1,0 +1,35 @@
+{
+  "name": "openclaw-skill-smart-weather",
+  "version": "1.0.0",
+  "description": "智能天气助手 - 获取天气并提供穿衣、通勤建议",
+  "main": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "scripts/*",
+    "references/*",
+    "assets/*"
+  ],
+  "keywords": [
+    "openclaw",
+    "skill",
+    "weather",
+    "weather-forecast",
+    "clothing-advice",
+    "commute-advice",
+    "chinese"
+  ],
+  "author": "yangsir",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "openclaw": {
+    "name": "smart-weather",
+    "description": "智能天气助手 - 获取天气并提供穿衣、通勤建议。当用户询问某个地方的天气、某个时间段的天气，或需要穿衣/通勤建议时使用。",
+    "emoji": "🌤️",
+    "requires": {
+      "bins": ["curl"]
+    }
+  }
+}
